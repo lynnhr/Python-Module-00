@@ -5,7 +5,7 @@ def ft_count_harvest_recursive():
 
 
 def ft_recursion(count, i):
-    if count == i:
+    if i >= count:
         print("Harvest time!")
     else:
         i += 1
